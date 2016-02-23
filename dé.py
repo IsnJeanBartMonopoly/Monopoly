@@ -40,11 +40,16 @@ def double(a,b) :
 
 c = double(a,b)
 
-if c > 2
-	print ("allez en prison")
- 
-else :
-	print ("changée de joueur")
+def Triple(a,b,c) :
+	Triple = 0
+	if a == b == c :
+		print (a+b+c , end=" ")
+		print ("allez en prison")		
+		double = double+1
+		return (double)
+	else:
+		print (a+b , end="")
+
 
 	
 
