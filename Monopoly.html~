@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Monopoly- Le Site Web</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Kireds</h1>
+            <h2>le jeu</h2>
+        </header>
+        
+        <div id="nav">
+        
+           <p>
+    Voici notre plateau de jeu :<br />
+    <img src="/home/knoppix/Downloads/monopoly-vierge.jpg" alt="plateau" />
+    
+</p>
+        </div>
+        
+        <section>
+            <aside>
+                <h1>À propos de l'auteur</h1>
+                <p>C'est moi, Kireds!.</p>
+            </aside>
+            <article>                
+                <h1>Je suis le créateur de se jeu</h1>
+                <p>Bla bla bla bla (texte de l'article)</p>
+            </article>
+        </section>
+        <footer>
+            <p>Copyright kireds- Tous droits réservés
+
+            <a href="#">Me contacter !</a></p>
+        </footer>
+        
+        		<div id="nav2">
+        		<img src="drapeaufrancais.png" alt="" />
+        		</div>>
+    </body>
+</html>

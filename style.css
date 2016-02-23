@@ -1,0 +1,21 @@
+#nav
+
+{
+
+    float: left;
+
+    width: 600px;
+
+    border: 1px solid black;
+
+} 
+
+#nav2
+
+{
+
+
+	Position : absolute ;
+	top : 530px; left : 370px ;
+
+}
