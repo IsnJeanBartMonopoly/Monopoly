@@ -1,4 +1,9 @@
-<html>
+import cherrypy
+
+class Root(object):
+    @cherrypy.expose
+    def index(self):
+        return """<html>
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
@@ -6,16 +11,15 @@
     </head>
 
     <body>
-        <header>
-            <h1>Kireds</h1>
-            <h2>le jeu</h2>
+        <header>        
+            <h1>le jeu</h1>
         </header>
         
         <div id="nav">
         
            <p>
     Voici notre plateau de jeu :<br />
-    <img src="/home/knoppix/Downloads/monopoly-vierge.jpg" alt="plateau" />
+    <img src="/static/monopoly-vierge.jpg" alt="plateau" />
     
 </p>
         </div>
@@ -33,12 +37,16 @@
         </footer>
         
         		<div id="nav2">
-        		<img src="drapeaufrancais.png" alt="" />
+        		<img src="/static/drapeaufrancais.png" alt="" />
         		</div>>
         		
         		<div id="nav3">
-        		<img src="drapeaufrancais.png" alt="" />
+        		<img src="/static/drapeaufrancais.png" alt="" />
         		</div>>
         		<input type="button" class="bouton_actif" id="b1" value="lancée les dés" onclick="dé.py">
     </body>
-</html>
+</html>"""
+if __name__ == '__main__':
+	cherrypy.quickstart(Root(), config ="serveur.conf")
+	cherrypy.quickstart(Root(), '/')
+

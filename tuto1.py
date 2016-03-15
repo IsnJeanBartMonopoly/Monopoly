@@ -1,4 +1,10 @@
-<html>
+import cherrypy
+
+class Root(object):
+    @cherrypy.expose
+    def index(self):
+	return 
+		<html>
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
@@ -6,9 +12,8 @@
     </head>
 
     <body>
-        <header>
-            <h1>Kireds</h1>
-            <h2>le jeu</h2>
+        <header>        
+            <h1>le jeu</h1>
         </header>
         
         <div id="nav">
@@ -42,3 +47,7 @@
         		<input type="button" class="bouton_actif" id="b1" value="lancée les dés" onclick="dé.py">
     </body>
 </html>
+        
+
+if __name__ == '__main__':
+   cherrypy.quickstart(Root(), '/')

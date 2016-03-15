@@ -9,7 +9,7 @@ def SOMME1(n):
     import random
     somme = 0
     for k in range(n):
-        somme=somme +random.randint(1,6)
+        somme=somme +random.randint(1,1)
       
     return(somme) 
 
@@ -18,7 +18,7 @@ def SOMME2(n):
     import random
     somme = 0
     for k in range(n):
-        somme=somme +random.randint(1,6)
+        somme=somme +random.randint(1,1)
     return(somme) 
     #~ 
 a = SOMME1(1)

@@ -29,22 +29,22 @@ for i in range (1):
 	print (b , end=" ")
 	
 def double(a,b) :
-	double = 0
+	double1 = 0
 	if a == b :
 		print (a+b , end=" ")
 		print ("relancée")		
-		double = double+1
-		return (double)
+		double2 = double1+1
+		return (double2)
 	else:
 		print (a+b , end="")
-
+		return double1
 c = double(a,b)
+#~
 
-if c > 2
+if c > 2 :
 	print ("allez en prison")
  
-else :
-	print ("changée de joueur")
+
 
 	
 

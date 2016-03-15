@@ -1,0 +1,73 @@
+[08/Mar/2016:12:49:53] ENGINE Listening for SIGTERM.
+[08/Mar/2016:12:49:53] ENGINE Listening for SIGHUP.
+[08/Mar/2016:12:49:53] ENGINE Listening for SIGUSR1.
+[08/Mar/2016:12:49:53] ENGINE Bus STARTING
+[08/Mar/2016:12:49:53] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Mar/2016:12:49:53] ENGINE Started monitor thread 'Autoreloader'.
+[08/Mar/2016:12:49:53] ENGINE Serving on http://127.0.0.1:8080
+[08/Mar/2016:12:49:53] ENGINE Bus STARTED
+[08/Mar/2016:12:49:57] ENGINE Keyboard Interrupt: shutting down bus
+[08/Mar/2016:12:49:57] ENGINE Bus STOPPING
+[08/Mar/2016:12:49:57] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[08/Mar/2016:12:49:57] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Mar/2016:12:49:57] ENGINE Stopped thread 'Autoreloader'.
+[08/Mar/2016:12:49:57] ENGINE Bus STOPPED
+[08/Mar/2016:12:49:57] ENGINE Bus EXITING
+[08/Mar/2016:12:49:57] ENGINE Bus EXITED
+[08/Mar/2016:12:49:57] ENGINE Waiting for child threads to terminate...
+[08/Mar/2016:12:49:59] ENGINE Listening for SIGHUP.
+[08/Mar/2016:12:49:59] ENGINE Listening for SIGUSR1.
+[08/Mar/2016:12:49:59] ENGINE Listening for SIGTERM.
+[08/Mar/2016:12:49:59] ENGINE Bus STARTING
+[08/Mar/2016:12:49:59] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Mar/2016:12:49:59] ENGINE Started monitor thread 'Autoreloader'.
+[08/Mar/2016:12:49:59] ENGINE Serving on http://127.0.0.1:8080
+[08/Mar/2016:12:49:59] ENGINE Bus STARTED
+[08/Mar/2016:12:50:03]  bang
+[08/Mar/2016:12:50:04]  bang
+[08/Mar/2016:12:50:20] ENGINE Restarting because /home/knoppix/Desktop/Projet/Monopoly/tuto1.py changed.
+[08/Mar/2016:12:50:20] ENGINE Stopped thread 'Autoreloader'.
+[08/Mar/2016:12:50:20] ENGINE Bus STOPPING
+[08/Mar/2016:12:50:20] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[08/Mar/2016:12:50:20] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Mar/2016:12:50:20] ENGINE Bus STOPPED
+[08/Mar/2016:12:50:20] ENGINE Bus EXITING
+[08/Mar/2016:12:50:20] ENGINE Bus EXITED
+[08/Mar/2016:12:50:20] ENGINE Waiting for child threads to terminate...
+[08/Mar/2016:12:50:20] ENGINE Re-spawning tuto1.py
+[08/Mar/2016:12:50:22] ENGINE Listening for SIGUSR1.
+[08/Mar/2016:12:50:22] ENGINE Listening for SIGTERM.
+[08/Mar/2016:12:50:22] ENGINE Listening for SIGHUP.
+[08/Mar/2016:12:50:22] ENGINE Bus STARTING
+[08/Mar/2016:12:50:22] ENGINE Started monitor thread 'Autoreloader'.
+[08/Mar/2016:12:50:22] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Mar/2016:12:50:23] ENGINE Serving on http://127.0.0.1:8080
+[08/Mar/2016:12:50:23] ENGINE Bus STARTED
+[08/Mar/2016:12:50:37] ENGINE Keyboard Interrupt: shutting down bus
+[08/Mar/2016:12:50:37] ENGINE Bus STOPPING
+[08/Mar/2016:12:50:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[08/Mar/2016:12:50:37] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Mar/2016:12:50:37] ENGINE Stopped thread 'Autoreloader'.
+[08/Mar/2016:12:50:37] ENGINE Bus STOPPED
+[08/Mar/2016:12:50:37] ENGINE Bus EXITING
+[08/Mar/2016:12:50:37] ENGINE Bus EXITED
+[08/Mar/2016:12:50:37] ENGINE Waiting for child threads to terminate...
+[08/Mar/2016:12:50:39] ENGINE Listening for SIGTERM.
+[08/Mar/2016:12:50:39] ENGINE Listening for SIGUSR1.
+[08/Mar/2016:12:50:39] ENGINE Listening for SIGHUP.
+[08/Mar/2016:12:50:39] ENGINE Bus STARTING
+[08/Mar/2016:12:50:39] ENGINE Started monitor thread 'Autoreloader'.
+[08/Mar/2016:12:50:39] ENGINE Started monitor thread '_TimeoutMonitor'.
+[08/Mar/2016:12:50:39] ENGINE Serving on http://127.0.0.1:8080
+[08/Mar/2016:12:50:39] ENGINE Bus STARTED
+[08/Mar/2016:12:50:43]  bang
+[08/Mar/2016:13:12:20] ENGINE Restarting because /home/knoppix/Desktop/Projet/Monopoly/tuto1.py changed.
+[08/Mar/2016:13:12:20] ENGINE Stopped thread 'Autoreloader'.
+[08/Mar/2016:13:12:20] ENGINE Bus STOPPING
+[08/Mar/2016:13:12:20] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[08/Mar/2016:13:12:20] ENGINE Stopped thread '_TimeoutMonitor'.
+[08/Mar/2016:13:12:20] ENGINE Bus STOPPED
+[08/Mar/2016:13:12:20] ENGINE Bus EXITING
+[08/Mar/2016:13:12:20] ENGINE Bus EXITED
+[08/Mar/2016:13:12:20] ENGINE Waiting for child threads to terminate...
+[08/Mar/2016:13:12:20] ENGINE Re-spawning tuto1.py

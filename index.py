@@ -1,14 +1,23 @@
-<html>
-    <head>
+#!/usr/bin/python3
+# -*- coding: utf-8 -*
+
+import cgi 
+
+form = cgi.FieldStorage()
+print("Content-type: text/html; charset=utf-8\n")
+
+print(form.getvalue("name"))
+
+html = """<!DOCTYPE html>
+<head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
         <title>Monopoly- Le Site Web</title>
     </head>
 
     <body>
-        <header>
-            <h1>Kireds</h1>
-            <h2>le jeu</h2>
+        <header>        
+            <h1>le jeu</h1>
         </header>
         
         <div id="nav">
@@ -41,4 +50,6 @@
         		</div>>
         		<input type="button" class="bouton_actif" id="b1" value="lancée les dés" onclick="dé.py">
     </body>
-</html>
+"""
+
+print(html)
