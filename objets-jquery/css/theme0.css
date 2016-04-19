@@ -1,0 +1,8 @@
+.bouton_actif {
+    background-color: lightblue;
+}
+.bouton_actif_clique{
+    background-color: orange;
+	width: 250px;
+	height: 150px;
+}
