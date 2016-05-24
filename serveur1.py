@@ -3,6 +3,13 @@ import json
 import os, os.path
 import random
 import string
+import debis
+
+
+
+J1=None
+J2=None
+
 
 
 class Root(object):
@@ -28,7 +35,7 @@ class Root(object):
         
            <p>
     Voici notre plateau de jeu :<br />
-    <img src="/static/monopoly-vierge.jpg" alt="plateau" />
+    <img src="/static/monop4.jpg" alt="plateau" />
     
 </p>
         </div>
@@ -73,12 +80,16 @@ class Root(object):
 		resultat = (random.randrange(1,(typD+1)))
 		resultat2 = (random.randrange(1,(typD+1)))
 		return (resultat,resultat2)
+		
+
 
 
 	    
 	    
 
 if __name__ == '__main__':
+ J1=debis.joueur()
+ J2=debis.joueur()
  cherrypy.quickstart(Root(), config ="serveur.conf")
  cherrypy.quickstart(Root(), '/')
 
